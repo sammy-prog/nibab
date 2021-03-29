@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769414010840",
+    "project_id": "flutterapps-ad16b",
+    "storage_bucket": "flutterapps-ad16b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769414010840:android:e4fba171e1ba8d52d5c4ad",
+        "android_client_info": {
+          "package_name": "com.bookApp.nibab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769414010840-husgh6td4dfo2j0443d4fa91v7f3k59v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDysn_j99RnY7CjXhyOO_v4Z_SP0owfDYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769414010840-husgh6td4dfo2j0443d4fa91v7f3k59v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

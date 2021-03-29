@@ -1,0 +1,64 @@
+name: nibab
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.0.2
+
+  firebase_auth: ^1.0.1
+  cloud_firestore: ^1.0.3
+
+  shared_preferences: ^2.0.5
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+        
+    - family: SourceSansProBold
+      fonts:
+        - asset: fonts/SourceSansPro-Bold.ttf
+
+    - family: Cinzel
+      fonts:
+        - asset: fonts/Cinzel-Regular.ttf
+    
+    - family: CinzelBold
+      fonts:
+        - asset: fonts/Cinzel-Bold.ttf
+    
+    - family: Alice
+      fonts:
+        - asset: fonts/Alice-Regular.ttf  
+    
+    
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
