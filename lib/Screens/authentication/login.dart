@@ -127,18 +127,14 @@ class _LoginState extends State<Login> {
                         onPressed: () async {
                           if (_formKey.currentState.validate()) {
                             _formKey.currentState.save();
-                            print(
-                                "successful___________________________________________---");
-                            print(this._email);
-                            print(_password);
                             dynamic result = await _auth.signInAnon();
                             if(result == null) {
                               print('error signing in___________________________');
                             } else {
                               print('signed in___________________________');
-                              print(result);
+                              print(result.uid);
+                             
                             }
-                            //return;
                           } else {
                             print(
                                 "UnSuccessfull__________________________________----");
